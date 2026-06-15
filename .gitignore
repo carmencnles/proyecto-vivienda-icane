@@ -1,0 +1,13 @@
+# Ignorar el entorno virtual
+venv/
+.venv/
+env/
+
+# Ignorar los datos originales (crudos) para no saturar GitHub
+data/raw/
+
+# Ignorar archivos temporales de Python y de carpetas de sistema
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
